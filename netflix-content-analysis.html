@@ -1,0 +1,502 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Netflix Content Analysis | Manasvi Jadhav</title>
+    <link rel="stylesheet" href="style.css">
+<link rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css">
+<link rel="icon" type="image/svg+xml" href="images/favicon.svg">
+</head>
+
+<body>
+
+<nav>
+
+    <div class="logo">
+        <a href="index.html">Manasvi Jadhav</a>
+    </div>
+
+    <ul>
+        <li>
+            <a href="projects.html" class="active">Projects</a>
+        </li>
+
+        <li>
+            <a href="interests.html">Interests</a>
+        </li>
+
+        <li>
+            <a href="research.html">Research</a>
+        </li>
+
+        <li>
+            <a href="cv.html">CV</a>
+        </li>
+
+        <li>
+            <a href="about.html">About Me</a>
+        </li>
+    </ul>
+
+    <button id="dark-mode-toggle" class="dark-mode-toggle" aria-label="Toggle dark mode">
+        ☾
+    </button>
+
+</nav>
+
+
+    <div class="page-layout">
+
+  <!-- SIDEBAR -->
+
+<aside class="sidebar">
+
+    <div class="profile-photo">
+        <img src="images/profile.jpg" alt="Manasvi Jadhav">
+    </div>
+
+    <h1>Manasvi Jadhav</h1>
+
+    <p class="profile-title">
+        MSc Economics (Data Analytics)
+    </p>
+
+    <div class="profile-details">
+
+        <p>
+            <span class="profile-icon">
+                <i class="fa-solid fa-location-dot"></i>
+            </span>
+            Pune, India
+        </p>
+
+        <p>
+            <span class="profile-icon">
+                <i class="fa-solid fa-graduation-cap"></i>
+            </span>
+            Symbiosis School of Economics
+        </p>
+
+        <a href="mailto:manasvijadhav06@gmail.com">
+            <span class="profile-icon">
+                <i class="fa-solid fa-envelope"></i>
+            </span>
+            Email
+        </a>
+
+        <a href="https://github.com/manasvi-sunil-jadhav"
+           target="_blank"
+           rel="noopener noreferrer">
+            <span class="profile-icon">
+                <i class="fa-brands fa-github"></i>
+            </span>
+            GitHub
+        </a>
+
+        <a href="https://www.linkedin.com/in/manasvi-jadhav-016164287/"
+           target="_blank"
+           rel="noopener noreferrer">
+            <span class="profile-icon">
+                <i class="fa-brands fa-linkedin"></i>
+            </span>
+            LinkedIn
+        </a>
+
+    </div>
+
+</aside>
+
+
+        <main class="main-content project-detail-content">
+
+<h2>
+    Netflix Content Analysis using Python
+</h2>
+
+<p class="eyebrow">
+    PYTHON · EDA · DATA VISUALIZATION
+</p>
+
+            <p class="project-detail-intro">
+                This project performs Exploratory Data Analysis (EDA) on
+                the Netflix Titles dataset using Python. The objective is
+                to clean the dataset, engineer useful features, visualize
+                trends, and extract meaningful insights about Netflix's
+                content library.
+            </p>
+
+
+            <section class="detail-section">
+
+                <h3>Project Overview</h3>
+
+                <p>
+                    The project analyses the Netflix Titles dataset using
+                    Python-based data cleaning, feature engineering,
+                    exploratory analysis, and data visualization.
+                </p>
+
+                <p>
+                    The analysis examines the composition and characteristics
+                    of Netflix's content library, including content types,
+                    countries, genres, ratings, directors, actors, and movie
+                    durations.
+                </p>
+
+            </section>
+
+
+            <section class="detail-section">
+
+                <h3>Objectives</h3>
+
+                <ul class="detail-list">
+                    <li>Perform data cleaning and preprocessing.</li>
+                    <li>Handle missing values and duplicate records.</li>
+                    <li>Create new features for analysis.</li>
+                    <li>Explore trends in Netflix's content library.</li>
+                    <li>Visualize insights using Python.</li>
+                </ul>
+
+            </section>
+
+
+            <section class="detail-section">
+
+                <h3>Dataset</h3>
+
+                <p>
+                    <strong>Dataset:</strong> Netflix Titles Dataset
+                </p>
+
+                <p>
+                    <strong>Source:</strong>
+                    Kaggle — Netflix Shows Dataset
+                </p>
+
+                <p>
+                    The dataset contains information about movies and
+                    TV shows available on Netflix, including:
+                </p>
+
+                <div class="feature-grid">
+
+                    <div class="feature-item">
+                        <strong>Title</strong>
+                        <span>Name of the content title</span>
+                    </div>
+
+                    <div class="feature-item">
+                        <strong>Type</strong>
+                        <span>Movie or TV Show</span>
+                    </div>
+
+                    <div class="feature-item">
+                        <strong>Director & Cast</strong>
+                        <span>Directors and cast information</span>
+                    </div>
+
+                    <div class="feature-item">
+                        <strong>Country</strong>
+                        <span>Country information</span>
+                    </div>
+
+                    <div class="feature-item">
+                        <strong>Date Added</strong>
+                        <span>Date content was added to Netflix</span>
+                    </div>
+
+                    <div class="feature-item">
+                        <strong>Release Year</strong>
+                        <span>Original release year</span>
+                    </div>
+
+                    <div class="feature-item">
+                        <strong>Rating</strong>
+                        <span>Content rating</span>
+                    </div>
+
+                    <div class="feature-item">
+                        <strong>Duration</strong>
+                        <span>Movie or TV show duration</span>
+                    </div>
+
+                    <div class="feature-item">
+                        <strong>Genre</strong>
+                        <span>Content genre information</span>
+                    </div>
+
+                    <div class="feature-item">
+                        <strong>Description</strong>
+                        <span>Content description</span>
+                    </div>
+
+                </div>
+
+            </section>
+
+
+            <section class="detail-section">
+
+                <h3>Tools and Libraries</h3>
+
+                <div class="detail-tags">
+                    <span>Python</span>
+                    <span>Pandas</span>
+                    <span>NumPy</span>
+                    <span>Matplotlib</span>
+                    <span>Google Colab</span>
+                </div>
+
+            </section>
+
+
+            <section class="detail-section">
+
+                <h3>Analysis Workflow</h3>
+
+                <div class="feature-grid">
+
+                    <div class="feature-item">
+                        <strong>01 · Data Loading</strong>
+                        <span>
+                            Loading the Netflix Titles dataset for analysis.
+                        </span>
+                    </div>
+
+                    <div class="feature-item">
+                        <strong>02 · Data Exploration</strong>
+                        <span>
+                            Exploring the structure and characteristics
+                            of the dataset.
+                        </span>
+                    </div>
+
+                    <div class="feature-item">
+                        <strong>03 · Data Cleaning</strong>
+                        <span>
+                            Handling missing values and duplicate records.
+                        </span>
+                    </div>
+
+                    <div class="feature-item">
+                        <strong>04 · Feature Engineering</strong>
+                        <span>
+                            Creating new features for analysis.
+                        </span>
+                    </div>
+
+                    <div class="feature-item">
+                        <strong>05 · Exploratory Data Analysis</strong>
+                        <span>
+                            Examining trends and patterns in the content
+                            library.
+                        </span>
+                    </div>
+
+                    <div class="feature-item">
+                        <strong>06 · Data Visualization</strong>
+                        <span>
+                            Visualizing the findings using Python.
+                        </span>
+                    </div>
+
+                </div>
+
+            </section>
+
+
+            <section class="detail-section">
+
+                <h3>Exploratory Data Analysis</h3>
+
+                <p>
+                    The project includes visualizations examining:
+                </p>
+
+                <ul class="detail-list">
+                    <li>Distribution of Movies vs TV Shows</li>
+                    <li>Titles Added to Netflix Over the Years</li>
+                    <li>Top Content Producing Countries</li>
+                    <li>Most Common Genres</li>
+                    <li>Distribution of Content Ratings</li>
+                    <li>Top Directors</li>
+                    <li>Top Actors</li>
+                    <li>Distribution of Movie Durations</li>
+                </ul>
+
+            </section>
+
+
+            <section class="detail-section">
+
+                <h3>Project Visualizations</h3>
+
+                <p>
+                    Selected visualizations from the exploratory data
+                    analysis are presented below.
+                </p>
+
+
+                <div class="project-image">
+
+                    <img
+                        src="images/content-type-distribution.png"
+                        alt="Distribution of Netflix content types">
+
+                </div>
+
+                <p class="image-caption">
+                    <strong>Distribution of Content Types</strong><br>
+                    Movies account for approximately 70% of Netflix's
+                    content library, while TV Shows make up around 30%.
+                </p>
+
+
+                <div class="project-image">
+
+                    <img
+                        src="images/titles-added-by-year.png"
+                        alt="Netflix titles added by year">
+
+                </div>
+
+                <p class="image-caption">
+                    <strong>Titles Added Over the Years</strong><br>
+                    Netflix experienced rapid growth in content additions
+                    between 2016 and 2019, with 2019 recording the highest
+                    number of titles added.
+                </p>
+
+
+                <div class="project-image">
+
+                    <img
+                        src="images/top-countries.png"
+                        alt="Top content producing countries on Netflix">
+
+                </div>
+
+                <p class="image-caption">
+                    <strong>Top Content Producing Countries</strong><br>
+                    The United States is the largest contributor to
+                    Netflix's catalog, followed by India and the
+                    United Kingdom.
+                </p>
+
+
+                <div class="project-image">
+
+                    <img
+                        src="images/top-genres.png"
+                        alt="Most common Netflix genres">
+
+                </div>
+
+                <p class="image-caption">
+                    <strong>Most Common Genres</strong><br>
+                    International Movies, Dramas, and Comedies are the
+                    most frequently occurring genres.
+                </p>
+
+            </section>
+
+
+            <section class="detail-section">
+
+                <h3>Key Insights</h3>
+
+                <ul class="detail-list">
+
+                    <li>
+                        Movies account for approximately 70% of Netflix's
+                        content library, while TV Shows make up around 30%.
+                    </li>
+
+                    <li>
+                        Netflix experienced rapid growth in content
+                        additions between 2016 and 2019, with 2019
+                        recording the highest number of titles added.
+                    </li>
+
+                    <li>
+                        The United States is the largest contributor to
+                        Netflix's catalog, followed by India and the
+                        United Kingdom.
+                    </li>
+
+                    <li>
+                        International Movies, Dramas, and Comedies are the
+                        most frequently occurring genres.
+                    </li>
+
+                    <li>
+                        Most Netflix content is targeted toward mature
+                        audiences, with TV-MA and TV-14 being the dominant
+                        content ratings.
+                    </li>
+
+                    <li>
+                        Movie durations are concentrated around the
+                        standard feature-film length of 80–120 minutes.
+                    </li>
+
+                    <li>
+                        A small group of directors and actors contribute
+                        multiple titles to Netflix's catalog, indicating
+                        recurring collaborations.
+                    </li>
+
+                </ul>
+
+            </section>
+
+
+            <section class="detail-section">
+
+                <h3>Project Repository</h3>
+
+                <p>
+                    The complete Python analysis and project files are
+                    available in the GitHub repository.
+                </p>
+
+                <a
+                    href="https://github.com/manasvi-sunil-jadhav/netflix-content-analysis-python"
+                    target="_blank"
+                    class="project-github-button">
+                    View Project on GitHub
+                </a>
+
+            </section>
+
+
+            <section class="detail-section">
+
+                <h3>Reference</h3>
+
+                <p>
+                    Netflix Titles Dataset — Kaggle.
+                </p>
+
+            </section>
+
+
+            <div class="back-to-projects">
+
+                <a href="projects.html">
+                    ← Back to Projects
+                </a>
+
+            </div>
+
+        </main>
+
+    </div>
+<script src="./dark-mode.js"></script>
+</body>
+
+</html>

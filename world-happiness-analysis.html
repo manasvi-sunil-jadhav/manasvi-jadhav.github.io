@@ -1,0 +1,597 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>World Happiness Analysis | Manasvi Jadhav</title>
+    <link rel="stylesheet" href="style.css">
+<link rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css">
+<link rel="icon" type="image/svg+xml" href="images/favicon.svg">
+</head>
+
+<body>
+
+<nav>
+
+    <div class="logo">
+        <a href="index.html">Manasvi Jadhav</a>
+    </div>
+
+    <ul>
+        <li>
+            <a href="projects.html" class="active">Projects</a>
+        </li>
+
+        <li>
+            <a href="interests.html">Interests</a>
+        </li>
+
+        <li>
+            <a href="research.html">Research</a>
+        </li>
+
+        <li>
+            <a href="cv.html">CV</a>
+        </li>
+
+        <li>
+            <a href="about.html">About Me</a>
+        </li>
+    </ul>
+
+    <button id="dark-mode-toggle" class="dark-mode-toggle" aria-label="Toggle dark mode">
+        ☾
+    </button>
+
+</nav>
+
+
+    <div class="page-layout">
+
+  <!-- SIDEBAR -->
+
+<aside class="sidebar">
+
+    <div class="profile-photo">
+        <img src="images/profile.jpg" alt="Manasvi Jadhav">
+    </div>
+
+    <h1>Manasvi Jadhav</h1>
+
+    <p class="profile-title">
+        MSc Economics (Data Analytics)
+    </p>
+
+    <div class="profile-details">
+
+        <p>
+            <span class="profile-icon">
+                <i class="fa-solid fa-location-dot"></i>
+            </span>
+            Pune, India
+        </p>
+
+        <p>
+            <span class="profile-icon">
+                <i class="fa-solid fa-graduation-cap"></i>
+            </span>
+            Symbiosis School of Economics
+        </p>
+
+        <a href="mailto:manasvijadhav06@gmail.com">
+            <span class="profile-icon">
+                <i class="fa-solid fa-envelope"></i>
+            </span>
+            Email
+        </a>
+
+        <a href="https://github.com/manasvi-sunil-jadhav"
+           target="_blank"
+           rel="noopener noreferrer">
+            <span class="profile-icon">
+                <i class="fa-brands fa-github"></i>
+            </span>
+            GitHub
+        </a>
+
+        <a href="https://www.linkedin.com/in/manasvi-jadhav-016164287/"
+           target="_blank"
+           rel="noopener noreferrer">
+            <span class="profile-icon">
+                <i class="fa-brands fa-linkedin"></i>
+            </span>
+            LinkedIn
+        </a>
+
+    </div>
+
+</aside>
+
+
+        <main class="main-content project-detail-content">
+
+<h2>
+    World Happiness Analysis using R
+</h2>
+
+<p class="eyebrow">
+    R · ECONOMICS · REGRESSION ANALYSIS
+</p>
+
+            <p class="project-detail-intro">
+                An economics research project that explores the
+                socioeconomic determinants of happiness across countries
+                using the World Happiness Report 2024 dataset. The analysis
+                applies data cleaning, exploratory data analysis,
+                visualization, correlation analysis, and multiple linear
+                regression to examine how economic and social indicators
+                influence happiness levels.
+            </p>
+
+
+            <section class="detail-section">
+
+                <h3>Project Overview</h3>
+
+                <p>
+                    The World Happiness Report ranks countries based on
+                    people's self-reported life evaluations while
+                    considering several socioeconomic factors.
+                </p>
+
+                <p>
+                    This project investigates how variables such as GDP,
+                    social support, healthy life expectancy, freedom,
+                    generosity, and perceptions of corruption contribute
+                    to happiness across countries.
+                </p>
+
+                <p>
+                    The analysis was conducted entirely in R using modern
+                    data analysis packages from the tidyverse ecosystem.
+                </p>
+
+            </section>
+
+
+            <section class="detail-section">
+
+                <h3>Research Objective</h3>
+
+                <p>
+                    The primary objective of this project is to examine
+                    the relationship between happiness and key
+                    socioeconomic indicators across countries.
+                </p>
+
+                <ul class="detail-list">
+                    <li>Clean and prepare the World Happiness Report dataset.</li>
+                    <li>Explore the distribution of happiness scores.</li>
+                    <li>Identify the happiest and least happy countries.</li>
+                    <li>
+                        Study relationships between happiness and
+                        socioeconomic variables.
+                    </li>
+                    <li>Perform correlation analysis.</li>
+                    <li>Build a multiple linear regression model.</li>
+                    <li>
+                        Interpret the statistical significance of each
+                        determinant.
+                    </li>
+                </ul>
+
+            </section>
+
+
+            <section class="detail-section">
+
+                <h3>Dataset</h3>
+
+                <p>
+                    <strong>Source:</strong> World Happiness Report 2024
+                </p>
+
+                <p>
+                    The dataset contains country-level information on:
+                </p>
+
+                <div class="feature-grid">
+
+                    <div class="feature-item">
+                        <strong>Happiness Scores</strong>
+                        <span>Country-level life evaluation scores</span>
+                    </div>
+
+                    <div class="feature-item">
+                        <strong>GDP per Capita</strong>
+                        <span>Economic indicator</span>
+                    </div>
+
+                    <div class="feature-item">
+                        <strong>Social Support</strong>
+                        <span>Social support indicator</span>
+                    </div>
+
+                    <div class="feature-item">
+                        <strong>Healthy Life Expectancy</strong>
+                        <span>Health-related indicator</span>
+                    </div>
+
+                    <div class="feature-item">
+                        <strong>Freedom</strong>
+                        <span>Freedom to make life choices</span>
+                    </div>
+
+                    <div class="feature-item">
+                        <strong>Generosity</strong>
+                        <span>Generosity indicator</span>
+                    </div>
+
+                    <div class="feature-item">
+                        <strong>Perceptions of Corruption</strong>
+                        <span>Perceived corruption indicator</span>
+                    </div>
+
+                </div>
+
+                <p class="detail-note">
+                    After data cleaning, the final dataset consisted of
+                    140 countries.
+                </p>
+
+            </section>
+
+
+            <section class="detail-section">
+
+                <h3>Methodology</h3>
+
+                <div class="feature-grid">
+
+                    <div class="feature-item">
+                        <strong>01 · Data Import</strong>
+                        <span>
+                            Imported the CSV dataset into R.
+                        </span>
+                    </div>
+
+                    <div class="feature-item">
+                        <strong>02 · Data Cleaning</strong>
+                        <span>
+                            Checked missing values, removed incomplete
+                            observations, checked duplicates, renamed
+                            variables, and removed unnecessary columns.
+                        </span>
+                    </div>
+
+                    <div class="feature-item">
+                        <strong>03 · Exploratory Data Analysis</strong>
+                        <span>
+                            Summary statistics, happiness distribution,
+                            and the top and bottom 10 happiest countries.
+                        </span>
+                    </div>
+
+                    <div class="feature-item">
+                        <strong>04 · Data Visualization</strong>
+                        <span>
+                            Scatter plots with regression lines for
+                            socioeconomic variables and happiness.
+                        </span>
+                    </div>
+
+                    <div class="feature-item">
+                        <strong>05 · Correlation Analysis</strong>
+                        <span>
+                            Correlation matrix examining relationships
+                            among exploratory variables.
+                        </span>
+                    </div>
+
+                    <div class="feature-item">
+                        <strong>06 · Multiple Linear Regression</strong>
+                        <span>
+                            Estimated a model using GDP, Social Support,
+                            Life Expectancy, Freedom, Generosity, and
+                            Corruption.
+                        </span>
+                    </div>
+
+                    <div class="feature-item">
+                        <strong>07 · Model Diagnostics</strong>
+                        <span>
+                            Evaluated regression assumptions using
+                            residual and Q-Q diagnostic plots.
+                        </span>
+                    </div>
+
+                </div>
+
+            </section>
+
+
+            <section class="detail-section">
+
+                <h3>Multiple Linear Regression</h3>
+
+                <p>
+                    A multiple linear regression model was estimated using
+                    the following specification:
+                </p>
+
+                <div class="feature-item">
+
+                    <strong>
+                        Happiness ~ GDP + Social Support + Life Expectancy
+                        + Freedom + Generosity + Corruption
+                    </strong>
+
+                    <span>
+                        The model examines the relationship between
+                        happiness scores and multiple socioeconomic
+                        indicators simultaneously.
+                    </span>
+
+                </div>
+
+            </section>
+
+
+            <section class="detail-section">
+
+                <h3>Model Diagnostics</h3>
+
+                <p>
+                    Regression assumptions were evaluated using:
+                </p>
+
+                <ul class="detail-list">
+                    <li>Residual vs Fitted plot</li>
+                    <li>Histogram of Residuals</li>
+                    <li>Normal Q-Q plot</li>
+                </ul>
+
+            </section>
+
+
+            <section class="detail-section">
+
+                <h3>Key Findings</h3>
+
+                <p>
+                    The regression model explained approximately
+                    <strong>82% of the variation in happiness scores
+                    (R² ≈ 0.82).</strong>
+                </p>
+
+                <ul class="detail-list">
+
+                    <li>
+                        <strong>Social Support</strong> is one of the
+                        strongest predictors of happiness.
+                    </li>
+
+                    <li>
+                        <strong>Freedom to Make Life Choices</strong> has
+                        a substantial positive relationship with happiness.
+                    </li>
+
+                    <li>
+                        <strong>GDP per Capita</strong> remains statistically
+                        significant after controlling for other variables.
+                    </li>
+
+                    <li>
+                        <strong>Healthy Life Expectancy</strong> contributes
+                        positively to national happiness.
+                    </li>
+
+                    <li>
+                        <strong>Generosity</strong> was not statistically
+                        significant in the final model.
+                    </li>
+
+                    <li>
+                        Overall, the regression model provides a strong fit
+                        for explaining cross-country differences in
+                        happiness.
+                    </li>
+
+                </ul>
+
+            </section>
+
+
+            <section class="detail-section">
+
+                <h3>Visualizations</h3>
+
+                <div class="project-image">
+
+                    <img
+                        src="images/happiness-distribution.png"
+                        alt="Distribution of happiness scores">
+
+                </div>
+
+                <p class="image-caption">
+                    <strong>Distribution of Happiness Scores</strong>
+                </p>
+
+
+                <div class="project-image">
+
+                    <img
+                        src="images/top10-happiest.png"
+                        alt="Top 10 happiest countries">
+
+                </div>
+
+                <p class="image-caption">
+                    <strong>Top 10 Happiest Countries</strong>
+                </p>
+
+
+                <div class="project-image">
+
+                    <img
+                        src="images/bottom10-happiest.png"
+                        alt="Bottom 10 happiest countries">
+
+                </div>
+
+                <p class="image-caption">
+                    <strong>Bottom 10 Happiest Countries</strong>
+                </p>
+
+
+                <div class="project-image">
+
+                    <img
+                        src="images/gdp-vs-happiness.png"
+                        alt="GDP versus happiness">
+
+                </div>
+
+                <p class="image-caption">
+                    <strong>GDP vs Happiness</strong>
+                </p>
+
+
+                <div class="project-image">
+
+                    <img
+                        src="images/social-support-vs-happiness.png"
+                        alt="Social support versus happiness">
+
+                </div>
+
+                <p class="image-caption">
+                    <strong>Social Support vs Happiness</strong>
+                </p>
+
+
+                <div class="project-image">
+
+                    <img
+                        src="images/freedom-vs-happiness.png"
+                        alt="Freedom versus happiness">
+
+                </div>
+
+                <p class="image-caption">
+                    <strong>Freedom vs Happiness</strong>
+                </p>
+
+
+                <div class="project-image">
+
+                    <img
+                        src="images/life-expectancy-vs-happiness.png"
+                        alt="Life expectancy versus happiness">
+
+                </div>
+
+                <p class="image-caption">
+                    <strong>Life Expectancy vs Happiness</strong>
+                </p>
+
+
+                <div class="project-image">
+
+                    <img
+                        src="images/correlation-heatmap.png"
+                        alt="Correlation heatmap">
+
+                </div>
+
+                <p class="image-caption">
+                    <strong>Correlation Heatmap</strong>
+                </p>
+
+            </section>
+
+
+            <section class="detail-section">
+
+                <h3>Technologies Used</h3>
+
+                <div class="detail-tags">
+                    <span>R</span>
+                    <span>tidyverse</span>
+                    <span>tidyr</span>
+                    <span>dplyr</span>
+                    <span>ggplot2</span>
+                    <span>readr</span>
+                    <span>corrplot</span>
+                </div>
+
+            </section>
+
+
+            <section class="detail-section">
+
+                <h3>Future Improvements</h3>
+
+                <ul class="detail-list">
+
+                    <li>
+                        Building panel data models using multiple years
+                        of the World Happiness Report.
+                    </li>
+
+                    <li>
+                        Applying machine learning algorithms to predict
+                        happiness scores.
+                    </li>
+
+                    <li>
+                        Comparing results across regions and income groups.
+                    </li>
+
+                    <li>
+                        Investigating causal relationships using
+                        econometric techniques.
+                    </li>
+
+                </ul>
+
+            </section>
+
+
+            <section class="detail-section">
+
+                <h3>Project Repository</h3>
+
+                <p>
+                    The complete R analysis and project files are
+                    available in the GitHub repository.
+                </p>
+
+                <a
+                    href="https://github.com/manasvi-sunil-jadhav/world-happiness-analysis-R"
+                    target="_blank"
+                    class="project-github-button">
+                    View Project on GitHub
+                </a>
+
+            </section>
+
+
+            <div class="back-to-projects">
+
+                <a href="projects.html">
+                    ← Back to Projects
+                </a>
+
+            </div>
+
+        </main>
+
+    </div>
+<script src="./dark-mode.js"></script>
+</body>
+
+</html>
